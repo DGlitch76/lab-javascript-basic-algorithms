@@ -1,6 +1,6 @@
 //Iteration 1: Names and Input
 
-const hacker1 = "brainGlitch";
+let hacker1 = "brainGlitch";
 console.log(`The driver's name is ${hacker1}`)
 
 const hacker2 = "neuronBooster";
@@ -96,5 +96,25 @@ for (let i = 0; i < 1; i++) {
   }
   else {
     console.log(throwCoin);
+  }
+}
+
+// adding code to confirm the script
+
+const hacker3 = "neutrin";
+
+a = hacker3[0];
+b = hacker2[0];
+
+for (let i = 0; i < 1; i++) {
+
+  if (a > b) {
+    console.log("Yo, the navigator goes first definitely.")
+  }
+  else if (a < b) {
+    console.log("The driver's goes first!")
+  }
+  else {
+    console.log("What?! You both have the same initials?");
   }
 }
